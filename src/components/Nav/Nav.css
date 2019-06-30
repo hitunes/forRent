@@ -1,0 +1,303 @@
+.nav {
+  background: #fff;
+  border-bottom: 1px solid #c6c6c6;
+  -webkit-box-shadow: 0 1px 3px #e5e5e4;
+  box-shadow: 0 1px 3px #e5e5e4;
+}
+
+.nav__content {
+  max-width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__content {
+    max-width: 95%;
+  }
+}
+
+.nav__content__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__content__nav-links {
+    display: none;
+  }
+}
+
+.nav__content__nav-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav__content__nav-links .nav-item a {
+  color: #656d78;
+  padding: 5px 10px;
+}
+
+.nav__content__nav-links .nav-item a:hover {
+  opacity: .5;
+}
+
+.nav__content__nav-links .nav-item.active a {
+  background: #ef7c37;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.nav__content__nav-links .nav-item.active a:hover {
+  opacity: 1;
+}
+
+.nav__content__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__content__menu {
+    display: none;
+  }
+}
+
+.nav__content__menu .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.nav__content__menu .menu .language {
+  width: 105px;
+}
+
+.nav__content__menu .menu .language .ant-select {
+  width: 100%;
+  color: #fff;
+}
+
+.nav__content__menu .menu .language .ant-select-selection {
+  height: 26px;
+  background: #f08643;
+  border: 1px solid #f08643;
+  border-radius: 0 0 5px 5px;
+}
+
+.nav__content__menu .menu .language .ant-select-selection__rendered {
+  line-height: 20px;
+}
+
+.nav__content__menu .menu .country {
+  margin-left: 10px;
+  width: 156px;
+}
+
+.nav__content__menu .menu .country .ant-select {
+  width: 100%;
+  color: #fff;
+}
+
+.nav__content__menu .menu .country .ant-select-selection {
+  height: 26px;
+  background: #f08643;
+  border: 1px solid #f08643;
+  border-radius: 0 0 5px 5px;
+}
+
+.nav__content__menu .menu .country .ant-select-selection__rendered {
+  line-height: 20px;
+}
+
+.nav__content__menu .sign__area {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__content__menu .sign__area a:first-child {
+  margin-right: 5px;
+}
+
+.progress {
+  background: #f2f2f2;
+  border-bottom: 1px solid #bdbdbd;
+  -webkit-box-shadow: inset 0 1px 3px #e5e5e4;
+  box-shadow: inset 0 1px 3px #e5e5e4;
+}
+
+.progress__steps {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .progress__steps {
+    max-width: 95%;
+  }
+}
+
+.progress__step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  color: #c7c9cd;
+  border-left: 1px solid #d2d2d2;
+}
+
+@media screen and (max-width: 768px) {
+  .progress__step {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .progress__step {
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+}
+
+.progress__step:first-child {
+  border-left: 0;
+}
+
+@media screen and (max-width: 415px) {
+  .progress__step:first-child {
+    border-left: 1px solid #d2d2d2;
+  }
+}
+
+.progress__step div:first-child {
+  margin-right: 25px;
+  border: 2px solid;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .progress__step div:first-child {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .progress__step div:first-child {
+    margin-right: 15px;
+  }
+}
+
+.progress__step.done {
+  color: #656d78;
+}
+
+.progress__step.current {
+  background: #434b56;
+  color: #fff;
+}
+
+.hamburger-menu-wrapper {
+  cursor: pointer;
+  padding: 4px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-menu-wrapper {
+    display: block;
+  }
+}
+
+.hamburger-menu-wrapper.open .hamburger-menu span {
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+
+.hamburger-menu-wrapper.open .hamburger-menu span::before {
+  opacity: 0;
+}
+
+.hamburger-menu-wrapper.open .hamburger-menu span::after {
+  top: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.hamburger-menu-wrapper .hamburger-menu {
+  position: relative;
+  width: 24px;
+  height: 12px;
+}
+
+.hamburger-menu-wrapper .hamburger-menu span {
+  opacity: 1;
+  left: 0;
+  display: block;
+  color: black;
+  top: 50%;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.hamburger-menu-wrapper .hamburger-menu span, .hamburger-menu-wrapper .hamburger-menu span::after, .hamburger-menu-wrapper .hamburger-menu span::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 1px;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.hamburger-menu-wrapper .hamburger-menu span::before {
+  top: -6px;
+}
+
+.hamburger-menu-wrapper .hamburger-menu span::after {
+  top: 6px;
+}
+/*# sourceMappingURL=Nav.css.map */

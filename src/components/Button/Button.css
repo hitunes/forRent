@@ -1,0 +1,36 @@
+.button {
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.button.grey {
+  background: #7a7f88;
+}
+
+.button.blue {
+  background: #378eef;
+}
+
+.button.orange {
+  border: 1px solid #cc692f;
+  background: #f08643;
+  -webkit-box-shadow: 0 1px 2px 0 #f5ac7c inset, inset 0 -15px 15px 0 #ec702f;
+          box-shadow: 0 1px 2px 0 #f5ac7c inset, inset 0 -15px 15px 0 #ec702f;
+}
+/*# sourceMappingURL=Button.css.map */

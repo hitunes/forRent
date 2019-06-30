@@ -1,0 +1,33 @@
+// pagination
+.pagination {
+    padding-bottom: 58px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    .active {
+        color: #fff;
+        border: 1px solid #cc692f;
+        background: #f08643;
+        box-shadow: 0 1px 2px 0 #f5ac7c inset;
+    }
+    div {
+        background: #fdfdfd;
+        border: 1px solid #d2d2d2;
+        color: #d2d2d2;
+        cursor: pointer;
+        height: 44px;
+        width: 46px;
+        margin: 0 4px 0 5px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 44px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 2;
+        &:hover {
+            color: #9ca0a6;
+        }
+    }
+}

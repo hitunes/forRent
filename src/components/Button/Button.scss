@@ -1,0 +1,27 @@
+.button {
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    outline: none;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    transition: .3s;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    &:hover {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    &.grey {
+        background: #7a7f88;
+    }
+    &.blue {
+        background: #378eef;
+    }
+    &.orange {
+        border: 1px solid #cc692f;
+        background: #f08643;
+        box-shadow: 0 1px 2px 0 #f5ac7c inset, inset 0 -15px 15px 0 #ec702f;
+    }
+}

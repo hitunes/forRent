@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` ProductReducer should handle HANDLE_SEARCH 1`] = `
+Object {
+  "filter": undefined,
+}
+`;
+
+exports[` ProductReducer should return the initial state 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "addtionalInfo": Array [
+        Object {
+          "info": "6-speaker radio/CD system",
+        },
+        Object {
+          "info": "Escaro black fabric",
+        },
+        Object {
+          "info": "Hybrid System display",
+        },
+        Object {
+          "info": "Vehicle Stability Control",
+        },
+        Object {
+          "info": "Hill-start Assist Control",
+        },
+      ],
+      "id": 1,
+      "info": Array [
+        Object {
+          "icon": "usergroup-add",
+          "type": "5 passengers",
+        },
+        Object {
+          "icon": "folder",
+          "type": "3 large suitcases, 2 small suitcase",
+        },
+        Object {
+          "icon": "font-colors",
+          "type": "automatic transmission",
+        },
+        Object {
+          "icon": "fullscreen",
+          "type": "air conditioning",
+        },
+        Object {
+          "icon": "car",
+          "type": "9 km/l",
+        },
+      ],
+      "manufacturer": "Ford",
+      "offer": "Unlimited free miles included",
+      "price": 299,
+      "productImage": "/images/car_3.png",
+      "productName": "Ford Escape",
+      "tag": Array [
+        Object {
+          "id": 1,
+          "name": "top seller",
+        },
+      ],
+      "type": "economy",
+      "value": "ford",
+    },
+    Object {
+      "addtionalInfo": Array [
+        Object {
+          "info": "6-speaker radio/CD system",
+        },
+        Object {
+          "info": "Escaro black fabric",
+        },
+        Object {
+          "info": "Hybrid System display",
+        },
+        Object {
+          "info": "Vehicle Stability Control",
+        },
+        Object {
+          "info": "Hill-start Assist Control",
+        },
+      ],
+      "id": 2,
+      "info": Array [
+        Object {
+          "icon": "usergroup-add",
+          "type": "2 passengers",
+        },
+        Object {
+          "icon": "folder",
+          "type": "2 large suitcases, 2 small suitcase",
+        },
+        Object {
+          "icon": "font-colors",
+          "type": "automatic transmission",
+        },
+        Object {
+          "icon": "fullscreen",
+          "type": "air conditioning",
+        },
+        Object {
+          "icon": "car",
+          "type": "8 km/l",
+        },
+      ],
+      "manufacturer": "Reno",
+      "offer": "Unlimited free miles included",
+      "price": 945.25,
+      "productImage": "/images/car_1.png",
+      "productName": "Reno",
+      "tag": Array [],
+      "type": "compact",
+      "value": "reno",
+    },
+    Object {
+      "addtionalInfo": Array [
+        Object {
+          "info": "6-speaker radio/CD system",
+        },
+        Object {
+          "info": "Escaro black fabric",
+        },
+        Object {
+          "info": "Hybrid System display",
+        },
+        Object {
+          "info": "Vehicle Stability Control",
+        },
+        Object {
+          "info": "Hill-start Assist Control",
+        },
+      ],
+      "id": 8,
+      "info": Array [
+        Object {
+          "icon": "usergroup-add",
+          "type": "2 passengers",
+        },
+        Object {
+          "icon": "folder",
+          "type": "2 large suitcases, 2 small suitcase",
+        },
+        Object {
+          "icon": "font-colors",
+          "type": "automatic transmission",
+        },
+        Object {
+          "icon": "fullscreen",
+          "type": "air conditioning",
+        },
+        Object {
+          "icon": "car",
+          "type": "8 km/l",
+        },
+      ],
+      "manufacturer": "Reno",
+      "offer": "Unlimited free miles included",
+      "price": 1445.25,
+      "productImage": "/images/car_1.png",
+      "productName": "Reno",
+      "tag": Array [],
+      "type": "standard",
+      "value": "reno",
+    },
+    Object {
+      "addtionalInfo": Array [
+        Object {
+          "info": "6-speaker radio/CD system",
+        },
+        Object {
+          "info": "Escaro black fabric",
+        },
+        Object {
+          "info": "Hybrid System display",
+        },
+        Object {
+          "info": "Vehicle Stability Control",
+        },
+        Object {
+          "info": "Hill-start Assist Control",
+        },
+      ],
+      "id": 3,
+      "info": Array [
+        Object {
+          "icon": "usergroup-add",
+          "type": "5 passengers",
+        },
+        Object {
+          "icon": "folder",
+          "type": "1 large suitcases, 1 small suitcase",
+        },
+        Object {
+          "icon": "font-colors",
+          "type": "automatic transmission",
+        },
+        Object {
+          "icon": "fullscreen",
+          "type": "air conditioning",
+        },
+        Object {
+          "icon": "car",
+          "type": "13 km/l",
+        },
+      ],
+      "manufacturer": "Chevrolet",
+      "offer": "Unlimited free miles included",
+      "price": 360.99,
+      "productImage": "/images/car_2.png",
+      "productName": "Chevy Aveo",
+      "tag": Array [],
+      "type": "compact",
+      "value": "chevrolet",
+    },
+    Object {
+      "addtionalInfo": Array [
+        Object {
+          "info": "6-speaker radio/CD system",
+        },
+        Object {
+          "info": "Escaro black fabric",
+        },
+        Object {
+          "info": "Hybrid System display",
+        },
+        Object {
+          "info": "Vehicle Stability Control",
+        },
+        Object {
+          "info": "Hill-start Assist Control",
+        },
+      ],
+      "id": 4,
+      "info": Array [
+        Object {
+          "icon": "usergroup-add",
+          "type": "5 passengers",
+        },
+        Object {
+          "icon": "folder",
+          "type": "2 large suitcases, 1 small suitcase",
+        },
+        Object {
+          "icon": "font-colors",
+          "type": "automatic transmission",
+        },
+        Object {
+          "icon": "fullscreen",
+          "type": "air conditioning",
+        },
+        Object {
+          "icon": "car",
+          "type": "14 km/l",
+        },
+      ],
+      "manufacturer": "Toyota",
+      "offer": "Unlimited free miles included",
+      "price": 845.25,
+      "productImage": "/images/car_1.png",
+      "productName": "Toyota Corolla",
+      "tag": Array [],
+      "type": "intermediate",
+      "value": "toyota",
+    },
+    Object {
+      "addtionalInfo": Array [
+        Object {
+          "info": "6-speaker radio/CD system",
+        },
+        Object {
+          "info": "Escaro black fabric",
+        },
+        Object {
+          "info": "Hybrid System display",
+        },
+        Object {
+          "info": "Vehicle Stability Control",
+        },
+        Object {
+          "info": "Hill-start Assist Control",
+        },
+      ],
+      "id": 5,
+      "info": Array [
+        Object {
+          "icon": "usergroup-add",
+          "type": "5 passengers",
+        },
+        Object {
+          "icon": "folder",
+          "type": "2 large suitcases, 1 small suitcase",
+        },
+        Object {
+          "icon": "font-colors",
+          "type": "automatic transmission",
+        },
+        Object {
+          "icon": "fullscreen",
+          "type": "air conditioning",
+        },
+        Object {
+          "icon": "car",
+          "type": "14 km/l",
+        },
+      ],
+      "manufacturer": "BMW",
+      "offer": "Unlimited free miles included",
+      "price": 1245.25,
+      "productImage": "/images/bmw.jpeg",
+      "productName": "BMW",
+      "tag": Array [],
+      "type": "standard",
+      "value": "bmw",
+    },
+  ],
+  "filter": "all",
+  "filteredList": Array [],
+}
+`;

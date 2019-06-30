@@ -1,0 +1,87 @@
+.footer {
+    background: #f9f9f9;
+    &__menu {
+        &--top {
+            color: #a8abb0;
+            background-color: #fff;
+            border-top: 1px solid #bebebd;
+            border-bottom: 1px solid #ccc;
+            -moz-box-shadow: 0 1px 4px #ccc;
+            -webkit-box-shadow: 0 1px 4px #ccc;
+            box-shadow: 0 1px 4px #ccc
+        }
+        &--bottom {
+            padding: 0 15px;
+            margin: 0 auto;
+            max-width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @media screen and (max-width: 768px) {
+                max-width: 95%;
+            }
+            @media screen and (max-width: 415px) {
+                display: block;
+                padding: 10px 15px;
+            }
+            .footer-logo {
+                display: flex;
+                align-items: center;
+            }
+            .site-title {
+                color: #909090;
+            }
+        }
+        &__content-wrapper {
+            margin: 0 auto;
+            max-width: 60%;
+            padding: 40px 0;
+            @media screen and (max-width: 768px) {
+                max-width: 95%;
+            }
+            h3 {
+                font-size: 16px;
+                color: #444c57;
+                margin-bottom: 9px;
+            }
+            .support {
+                background: #f3f3f3;
+                border: 1px solid #d2d2d2;
+                display: flex;
+                padding: 16px;
+                @media screen and (max-width: 768px) {
+                    margin-top: 15px;
+                }
+                img {
+                    margin-right: 25px;
+                    height: 55px;
+                }
+                .phone {
+                    color: #434b56;
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 2px;
+                }
+            }
+        }
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            @media screen and (max-width: 415px) {
+                margin-bottom: 15px;
+            }
+            &-item {
+                li {
+                    padding: 2px 0;
+                }
+                a {
+                    color: #7c8490;
+                    &:hover {
+                        color: #378eef;
+                        transition: all .2s ease-in
+                    }
+                }
+            }
+        }
+    }
+}

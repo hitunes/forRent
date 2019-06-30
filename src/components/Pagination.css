@@ -1,0 +1,39 @@
+.pagination {
+  padding-bottom: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination .active {
+  color: #fff;
+  border: 1px solid #cc692f;
+  background: #f08643;
+  -webkit-box-shadow: 0 1px 2px 0 #f5ac7c inset;
+          box-shadow: 0 1px 2px 0 #f5ac7c inset;
+}
+
+.pagination div {
+  background: #fdfdfd;
+  border: 1px solid #d2d2d2;
+  color: #d2d2d2;
+  cursor: pointer;
+  height: 44px;
+  width: 46px;
+  margin: 0 4px 0 5px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 44px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+}
+
+.pagination div:hover {
+  color: #9ca0a6;
+}
+/*# sourceMappingURL=Pagination.css.map */

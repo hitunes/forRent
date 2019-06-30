@@ -1,0 +1,128 @@
+.footer {
+  background: #f9f9f9;
+}
+
+.footer__menu--top {
+  color: #a8abb0;
+  background-color: #fff;
+  border-top: 1px solid #bebebd;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: 0 1px 4px #ccc;
+  box-shadow: 0 1px 4px #ccc;
+}
+
+.footer__menu--bottom {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__menu--bottom {
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .footer__menu--bottom {
+    display: block;
+    padding: 10px 15px;
+  }
+}
+
+.footer__menu--bottom .footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__menu--bottom .site-title {
+  color: #909090;
+}
+
+.footer__menu__content-wrapper {
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__menu__content-wrapper {
+    max-width: 95%;
+  }
+}
+
+.footer__menu__content-wrapper h3 {
+  font-size: 16px;
+  color: #444c57;
+  margin-bottom: 9px;
+}
+
+.footer__menu__content-wrapper .support {
+  background: #f3f3f3;
+  border: 1px solid #d2d2d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__menu__content-wrapper .support {
+    margin-top: 15px;
+  }
+}
+
+.footer__menu__content-wrapper .support img {
+  margin-right: 25px;
+  height: 55px;
+}
+
+.footer__menu__content-wrapper .support .phone {
+  color: #434b56;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.footer__menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 415px) {
+  .footer__menu__list {
+    margin-bottom: 15px;
+  }
+}
+
+.footer__menu__list-item li {
+  padding: 2px 0;
+}
+
+.footer__menu__list-item a {
+  color: #7c8490;
+}
+
+.footer__menu__list-item a:hover {
+  color: #378eef;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+/*# sourceMappingURL=Footer.css.map */
