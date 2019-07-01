@@ -4,10 +4,10 @@ import "./CustomGrid.css";
 import "./../components/Main/Main.css";
 import React, { Component } from "react";
 import Nav from "./Nav/Nav";
+import Main from "./Main/Main";
 import Progress from "./Nav/Progress";
 import Footer from "./Footer/Footer";
 import Search from "./Search/Search";
-import Main from "./Main/Main";
 
 class App extends Component {
   render() {
